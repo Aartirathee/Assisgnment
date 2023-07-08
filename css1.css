@@ -1,0 +1,90 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aqua;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .filters {
+    display: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration-color: blue;
+  }
+  
+  .filters label {
+    margin-right: 10px;
+   background-color: chartreuse;
+  }
+  
+  .filters select {
+    background-color: navajowhite;
+    padding: 8px;
+    margin-left: 4cap;
+
+  }
+  
+  #userList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .userCard {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    padding: 6px 12px;
+    margin: 0 4px;
+    background-color: blue;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
+  #teamDetails {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  @media (max-width: 768px) {
+    .filters {
+        display: block;
+        margin-top: 20px;
+      grid-template-columns: 1fr;
+
+    }
+
+  }
+
+#createTeamBtn{
+  background-color: none;
+  font-size: 20px;
+}
+  
+  
+  
+  
+  

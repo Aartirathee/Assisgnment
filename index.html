@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css1.css">
+<script src="try.js"></script>
+<body>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Search by name"><br>
+        
+        <div class="filters">
+          <label>Domain:</label>
+          <select id="domainFilter">
+            <option value="">All</option>
+            <!-- Add domain options dynamically here -->
+          </select><br><br>
+        
+          <label>Gender:</label>
+          <select id="genderFilter">
+            <option value="">All</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select><br><br>
+        
+          <label>Availability:</label>
+          <select id="availabilityFilter">
+            <option value="">All</option>
+            <option value="available">Available</option>
+            <option value="unavailable">Unavailable</option>
+          </select><br>
+        </div>
+        
+        <div id="userList">
+          <!-- User cards will be dynamically added here -->
+        </div>
+        
+        <div id="pagination">
+          <!-- Pagination links will be dynamically added here -->
+        </div>
+        
+        <button id="createTeamBtn" able>Create Team</button>
+      </div>
+      
+      <div id="teamDetails">
+        <!-- Selected users' information will be displayed here -->
+      </div>
+      
+</body>
+</html>
