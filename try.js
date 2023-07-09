@@ -1,6 +1,6 @@
 
 // Fetch user data from backend API
-fetch('mongodb://localhost:27017/project/api/user')
+fetch('mongodb://localhost:27017/project.usercard/api/user')
   .then(response => response.json())
   .then(users => {
     // Initial data
